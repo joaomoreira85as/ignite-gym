@@ -12,6 +12,7 @@ export function HomeHeader() {
         alt="Imagem do usuário"
         mr={4}
       />
+
       <VStack flex={1}>
         <Text color={"gray.100"} fontSize={"md"}>
           Olá,
@@ -20,6 +21,7 @@ export function HomeHeader() {
           João Moreira
         </Heading>
       </VStack>
+
       <TouchableOpacity>
         <Icon as={MaterialIcons} name="logout" color={"gray.200"} size={7} />
       </TouchableOpacity>
